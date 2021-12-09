@@ -1,6 +1,6 @@
 const { AuthenticationError } = require("apollo-server-express");
 const User = require("../models/User");
-const Venue = require("../models/Venue");
+const Venue = require("../models/Venue")
 const Drink = require("../models/Drinks");
 const Recommend = require("../models/Recommend");
 const Recommendation = require("../models/Recommend");
