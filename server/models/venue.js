@@ -31,7 +31,6 @@ const venueSchema = new Schema({
       ref: 'Drink'
     }
   ]
-
 });
 
 const Venue = model("Venue", venueSchema);
